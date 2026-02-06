@@ -13,7 +13,8 @@ My goal for this repository is to master Data Structures and Algorithms (DSA) pa
 
 ## Project Structure
 
-Problem are organized in folders that replicate neetcode 150 path structure.
+Problem are organized in folders that replicate neetcode 150 path structure.  
 Each problem has...
 * It's own typescript file with a comment to the problem description at the top.
 * An explanation markdown of the solution.
+
