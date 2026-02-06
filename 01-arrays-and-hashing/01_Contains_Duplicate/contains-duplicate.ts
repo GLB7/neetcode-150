@@ -2,7 +2,7 @@
 import { runTest } from "../../test-utils.js";
 
 function containsDuplicate(nums: number[]): boolean {
-  // TODO: implement
+  // TODO: implement this
   return false;
 }
 
