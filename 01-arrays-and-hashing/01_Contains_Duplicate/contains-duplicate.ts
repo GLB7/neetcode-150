@@ -2,7 +2,13 @@
 import { runTest } from "../../test-utils.js";
 
 function containsDuplicate(nums: number[]): boolean {
-  // TODO: implement this
+  const check = new Set<number>();
+  // Loop through nums
+  for(const num of nums){
+    console.log(check);
+    if (check.has(num)) return true;
+    check.add(num);
+  }
   return false;
 }
 
@@ -10,3 +16,5 @@ function containsDuplicate(nums: number[]): boolean {
 runTest("Example 1", containsDuplicate([1, 2, 3, 1]), true);
 runTest("Example 2", containsDuplicate([1, 2, 3, 4]), false);
 runTest("Example 3", containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+
+// Submission: https://leetcode.com/problems/contains-duplicate/submissions/1910797461
